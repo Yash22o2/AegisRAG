@@ -1,0 +1,47 @@
+# === AegisRAG .gitignore ===
+
+# --- Private session files (never push) ---
+PROJECT_LOG.md
+CONTEXT.md
+
+# --- Secrets & credentials ---
+.env
+credentials.json
+token.json
+
+# --- Python virtual environment ---
+.venv/
+venv/
+env/
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# --- Distribution / packaging ---
+dist/
+build/
+*.egg-info/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# --- OS generated ---
+.DS_Store
+Thumbs.db
+
+# --- Test artifacts ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Logs ---
+*.log
