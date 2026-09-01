@@ -5,3 +5,9 @@ google-auth-httplib2==0.4.2
 mcp==2.1.1
 python-dotenv==1.2.3
 pypdf==6.16.2
+
+# Phase 2 — Chunking + Retrieval
+sentence-transformers     # Semantic chunking: all-MiniLM-L6-v2 embeddings (local, no API)
+scikit-learn              # cosine_similarity for semantic boundary detection
+chromadb                  # Persistent vector store for all 3 chunking strategy collections
+rank_bm25                 # BM25Okapi for hybrid retriever keyword search

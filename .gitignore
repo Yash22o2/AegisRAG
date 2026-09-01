@@ -45,3 +45,7 @@ htmlcov/
 
 # --- Logs ---
 *.log
+
+# --- Phase 2 generated artifacts (large, reproducible from ingest.py) ---
+chroma_db/
+chunks/
