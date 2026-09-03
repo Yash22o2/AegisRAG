@@ -49,3 +49,7 @@ htmlcov/
 # --- Phase 2 generated artifacts (large, reproducible from ingest.py) ---
 chroma_db/
 chunks/
+
+# --- Phase 3 generated artifacts (large, reproducible from evaluate.py) ---
+results/
+RESULTS_WRITEUP.md

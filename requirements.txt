@@ -11,3 +11,10 @@ sentence-transformers     # Semantic chunking: all-MiniLM-L6-v2 embeddings (loca
 scikit-learn              # cosine_similarity for semantic boundary detection
 chromadb                  # Persistent vector store for all 3 chunking strategy collections
 rank_bm25                 # BM25Okapi for hybrid retriever keyword search
+
+# Phase 3 — Evaluation Harness
+groq                      # Groq Python SDK (used by langchain-groq under the hood)
+ragas                     # RAGAS evaluation framework (context_precision, context_recall, faithfulness, answer_relevancy)
+langchain-groq            # LangChain wrapper for Groq LLMs → fed into ragas via LangchainLLMWrapper
+langchain-huggingface     # LangChain wrapper for HuggingFace embeddings → fed into ragas via LangchainEmbeddingsWrapper
+matplotlib                # Bar chart visualisation of eval results (eval_summary.png)
